@@ -8,7 +8,7 @@ namespace BankSystem.DAL
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=Tuffy;Database=BankDB;Integrated Security=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=localhost;Database=BankDB;Integrated Security=True;TrustServerCertificate=True;");
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Account> Accounts { get; set; }

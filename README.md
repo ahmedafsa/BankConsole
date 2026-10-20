@@ -57,7 +57,7 @@ Authorization is enforced inside the services, not just the menus. Admin-only op
 ### Run
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/ahmedafsa/BankConsole.git
 cd BankSystem
 dotnet run
 ```
